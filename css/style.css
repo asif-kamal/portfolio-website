@@ -1,0 +1,29 @@
+/*
+Colors used
+
+Primary Color (Orange): #ffc371;
+Secondary Color (Red): #f14d39;
+ */
+ body {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px; /* Sets the font size to 16px */
+  line-height: 1.6; /* Sets the line-height to 1.6 */
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+div {
+  padding: 10px 5px 15px 5px; /* 10px top, 5px right, 15px bottom, 5px left */
+}
