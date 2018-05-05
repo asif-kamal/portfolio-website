@@ -83,7 +83,10 @@ nav ul {
   display: inline-block;
   margin-right: 1%;
   text-align: center; /* Centers text */
-
+}
+.column-4:last-child {
+margin-right: 0;
+}
   @media all and (max-width: 500px) {
     .logo {
       /* Make logo smaller by changing it's height */
