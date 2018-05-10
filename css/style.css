@@ -4,6 +4,9 @@ Colors used
 Primary Color (Orange): #ffc371;
 Secondary Color (Red): #f14d39;
 */
+* {
+box-sizing: border-box;
+}
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px; /* Sets the font size to 16px */
@@ -11,8 +14,11 @@ body {
 }
 
 h1 {
-  font-size: 30px;
-  text-align: center; /* Centers text */
+font-size: 40px;
+text-align: center;
+background: #efefef;
+border: 1px solid #ccc;
+padding: 40px 30px;
 }
 
 h2 {
@@ -43,10 +49,18 @@ a:active {
 .logo:hover {
   color: #4682b4;
 }
+nav {
+float: right;
+margin-top: 12px;
+}
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+nav ul li {
+float: left;
+margin-left: 20px;
 }
 .button {
   /* overwrite browser defaults */
@@ -78,14 +92,17 @@ nav ul {
 }
 .column-4 {
   font-size: 16px;
-  width: 24%;
+  width: 24.25%;
   display: inline-block;
   margin-right: 1%;
-  text-align: center; /* Centers text */
+  text-align: center;
+  float:left; /* Centers text */
 }
 .column-4:last-child {
   margin-right: 0;
-  float:left;
+  .column-4 img {
+max-width: 100%;
+}
 }
 @media all and (max-width: 991px) {
   .logo {
