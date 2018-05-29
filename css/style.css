@@ -129,6 +129,12 @@ nav ul li {
 .social-media svg {
   width: 48px;
 }
+.berlin-illustration{
+  max-width: 600px;
+}
+.center{
+  text-align: center;
+}
 
 @media all and (max-width: 991px) {
   h1 {
